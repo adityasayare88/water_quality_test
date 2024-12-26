@@ -1,0 +1,69 @@
+# Core web framework dependencies
+fastapi==0.115.6  
+uvicorn== 0.34.0
+starlette==0.41.3
+
+# Data science and machine learning
+numpy==2.2.1
+pandas==2.2.3
+scikit-learn==1.6.0
+scipy==1.14.1
+
+# Pydantic and related
+pydantic==2.10.4 
+pydantic-core==2.27.2  
+pydantic-extra-types==2.10.1
+pydantic-settings==2.7.0
+
+# HTTP and API related
+httpx==0.28.1
+requests==2.32.3
+httpcore==1.0.7
+h11==0.14.0
+urllib3==2.3.0
+
+# Data formats and parsing
+orjson==3.10.12
+ujson==5.10.0
+PyYAML==6.0.2
+python-multipart==0.0.20
+
+# Development tools
+autopep8==2.3.1
+pylint==3.3.3
+pycodestyle==2.12.1
+
+# Utilities
+python-dateutil==2.9.0.post0
+python-dotenv==1.0.1
+typing_extensions==4.12.2
+anyio== 4.7.0
+click==8.1.8
+colorama==0.4.6
+email_validator==2.1.1
+Jinja2==3.1.5
+pytz==2024.2
+six==1.17.0
+toml==0.10.2
+
+# Additional dependencies
+dnspython==2.7.0
+httptools==0.6.4
+watchfiles==1.0.3
+websockets==14.1
+
+# Missing dependencies added
+annotated-types==0.7.0
+astroid==3.3.8
+certifi==2024.12.14
+charset-normalizer==3.4.1
+exceptiongroup==1.2.2
+isort==5.13.2
+itsdangerous==2.2.0
+joblib==1.4.2
+lazy-object-proxy==1.10.0
+mccabe==0.7.0
+pylsp-rope==0.1.17
+threadpoolctl==3.5.0
+tzdata==2024.2
+wrapt==1.17.0
