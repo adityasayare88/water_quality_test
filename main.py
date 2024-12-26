@@ -8,7 +8,7 @@ app=FastAPI(
     description="Predicting Water Potability"
 )
 
-with open("C:/Users/admin/Desktop/Aditya/water_potability_prediction_project/model.pkl", "rb") as f:
+with open("model.pkl", "rb") as f:
     model=pickle.load(f)
 
 
