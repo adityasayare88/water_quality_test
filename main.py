@@ -4,11 +4,6 @@ import pickle
 import pandas as pd
 from data_model import Water
 
-app = FastAPI(
-    title="Water Potability Prediction",
-    description="Predicting Water Potability"
-)
-
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # In production, replace with your frontend URL
@@ -16,6 +11,12 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+app = FastAPI(
+    title="Water Potability Prediction",
+    description="Predicting Water Potability"
+)
+
 
 with open("model.pkl", "rb") as f:
     model = pickle.load(f)
